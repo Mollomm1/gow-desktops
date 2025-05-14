@@ -1,0 +1,12 @@
+# deb https://packages.zorinos.com/stable jammy main
+# deb-src https://packages.zorinos.com/stable jammy main
+
+# deb https://packages.zorinos.com/patches jammy main
+# deb-src https://packages.zorinos.com/patches jammy main
+
+# deb https://packages.zorinos.com/apps jammy main
+# deb-src https://packages.zorinos.com/apps jammy main
+
+# deb https://packages.zorinos.com/drivers jammy main restricted
+# deb-src https://packages.zorinos.com/drivers jammy main restricted
+
