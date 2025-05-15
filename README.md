@@ -38,7 +38,7 @@ title = 'ZorinOS 17'
     env = [
         'GOW_REQUIRED_DEVICES=/dev/input/* /dev/dri/* /dev/nvidia*'
     ]
-    image = 'ghcr.io/mollomm1/debian-12-xfce:latest'
+    image = 'ghcr.io/mollomm1/gow-zorin-17:latest'
     mounts = []
     name = 'zorin17'
     ports = []
