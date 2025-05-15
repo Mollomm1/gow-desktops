@@ -21,6 +21,7 @@ function launch_desktop() {
   export QT_QPA_PLATFORM="xcb"
   export QT_AUTO_SCREEN_SCALE_FACTOR=1
   export QT_ENABLE_HIGHDPI_SCALING=1
+  export LC_ALL="en_US.UTF-8"
 
   # gnome related env
   export GNOME_SHELL_SESSION_MODE="zorin"
@@ -34,7 +35,7 @@ function launch_desktop() {
   flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
   
   # start de
-  dbus-run-session -- /usr/bin/gnome-session
+  /usr/bin/dbus-launch /usr/bin/gnome-session
 }
 
 launch_desktop
